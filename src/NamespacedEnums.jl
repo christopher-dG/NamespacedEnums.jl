@@ -6,7 +6,7 @@ export @nsenum
     @nsenum [T=T] EnumName[::BaseType] value1[=x] value2[=y]
 
 Create a namespaced enum.
-This enum works similarly a regular `@enum`, but its values are hidden behind a module.
+This enum works similarly to a regular `Enum`, but its values are hidden behind a module.
 To access the values, use `EnumName.value1`.
 To access the enum itself, use `EnumName.T`.
 
