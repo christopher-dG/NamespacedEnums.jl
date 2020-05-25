@@ -4,6 +4,14 @@
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://christopher-dG.github.io/NamespacedEnums.jl/dev)
 [![Build Status](https://travis-ci.com/christopher-dG/NamespacedEnums.jl.svg?branch=master)](https://travis-ci.com/christopher-dG/NamespacedEnums.jl)
 
+## Important: Use SuperEnum Instead
+
+I wrote this package assuming that nothing already existed that solved the problem.
+It turns out that [SuperEnum](https://github.com/kindlychung/SuperEnum.jl) does the same and more!
+Use that package instead.
+
+---
+
 If your module has a lot of enums, you might run into a few problems:
 
 - Your module's namespace becomes polluted with loads of names
